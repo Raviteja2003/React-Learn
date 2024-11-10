@@ -1,6 +1,9 @@
 //import Car from "./components/classComponents/Car"
 
-import NumberList from "./components/classComponents/GetSnapShotBeforeUpdate"
+//import Counter2 from "./components/classComponents/ComponentDidUpdate"
+import Timer from "./components/classComponents/ComponentWillUnmount"
+
+//import NumberList from "./components/classComponents/GetSnapShotBeforeUpdate"
 
 //import Counter from "./components/classComponents/ShouldComponentUpdate"
 //import UserProfile from "./components/ComponentDidMount"
@@ -23,8 +26,10 @@ function App() {
       <GetDerivedStateFromProps favco="BLUE"/>
       <UserProfile/>
       <Counter/>
+      <NumberList/>
+      <Counter2/>
     */
-   <NumberList/>
+    <Timer/>
 
   )
 }

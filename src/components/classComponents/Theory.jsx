@@ -23,6 +23,12 @@
                 4.getSnapshotBeforeUpdate() - It is called right before DOM is updated , this method captures information that can be used after the update
                 5.componentDidUpdate() - It is called immediately after the component's DOM  is updated. It provides place to perform side effects. 
 
+    Unmounting : The phase in React Life Cycle when a component is about to be removed from the DOM. During this phase react ensures that any necessary cleanup is performed before the component is destroyed.
+                 There is only one life cycle method is involved in this phase.
+
+                 1.componentWillUnmount() - It is invoked right before the component is being removed from the DOM.
+                 
+
 
 
 
