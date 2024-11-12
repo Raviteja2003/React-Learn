@@ -1,7 +1,9 @@
 //import Car from "./components/classComponents/Car"
 
+import Football from "./components/functionalComponents/Football"
+
 //import Counter2 from "./components/classComponents/ComponentDidUpdate"
-import Timer from "./components/classComponents/ComponentWillUnmount"
+//import Timer from "./components/classComponents/ComponentWillUnmount"
 
 //import NumberList from "./components/classComponents/GetSnapShotBeforeUpdate"
 
@@ -28,8 +30,9 @@ function App() {
       <Counter/>
       <NumberList/>
       <Counter2/>
+      <Timer/>
     */
-    <Timer/>
+    <Football/>
 
   )
 }
