@@ -1,0 +1,12 @@
+.color-list
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+.color-item{
+    padding: 8px;
+    background-color: aqua;
+    margin: 6px 0px;
+    border-radius: 3px;
+}

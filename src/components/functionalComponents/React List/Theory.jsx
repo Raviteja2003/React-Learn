@@ -1,0 +1,10 @@
+/*
+    map function is used to map the data into list fromat.
+
+    it is used to iterate over the array
+
+    each list item will have an unique key to track 
+    
+    
+
+*/
