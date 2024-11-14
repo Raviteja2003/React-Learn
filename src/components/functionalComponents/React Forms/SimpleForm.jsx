@@ -15,12 +15,15 @@ function SimpleForm()
     }
 
     return(
-        <form onSubmit={handleSubmit} className="form-style">
-            <label>Name : </label>
-            <input type="text" value={name} onChange={handleChange} placeholder="Enter Your Name...."></input>
-            <br></br>
-            <button type="submit" className="button-styles">Submit</button>
-        </form>
+        <div className="form-container">
+            <form onSubmit={handleSubmit} className="form-style">
+               <h2 className="form-title">Welcome! Please enter your Name</h2>
+               <label className="label-style">Name:</label>
+               <input type="text" value={name} onChange={handleChange} placeholder="Enter your Name...." className="input-style"></input>
+               <br/>
+               <button type="submot" className="button-styles">Submit</button>
+            </form>
+        </div>
     )
 }
 

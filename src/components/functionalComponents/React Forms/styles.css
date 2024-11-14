@@ -1,12 +1,136 @@
-.form-style
-{
-    align-items: center;
-    
+/* Container to center the form */
+.form-container {
+    display: flex;
     justify-content: center;
-    padding: 25px 25px;
-}
-
-.button-styles
-{
-    background-color: aquamarine;
-}
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f8ff;
+    padding: 20px;
+  }
+  
+  /* Style for the form */
+  .form-style {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .form-style:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Form title */
+  .form-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Label styling */
+  .label-style {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Input field styling */
+  .input-style {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-style:focus {
+    border-color: #66ccff;
+  }
+  
+  /* Button styling */
+  .button-styles {
+    background-color: #66ccff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-styles:hover {
+    background-color: #3389cc;
+  }
+  
+  .button-styles:active {
+    background-color: #006f8e;
+  }
+  
+  /* Media Query for Larger Screens (Laptops and Desktops) */
+  @media (min-width: 992px) {
+    .form-style {
+      width: 400px; /* Increase width on laptops */
+      padding: 40px;
+    }
+  
+    .form-title {
+      font-size: 28px;
+    }
+  
+    .label-style,
+    .input-style,
+    .button-styles {
+      font-size: 18px;
+    }
+  
+    .button-styles {
+      padding: 12px 24px;
+    }
+  }
+  
+  /* Media Query for Tablets (Medium Screens) */
+  @media (max-width: 768px) {
+    .form-style {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .form-title {
+      font-size: 20px;
+    }
+  
+    .button-styles {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Media Query for Small Screens (Mobile Devices) */
+  @media (max-width: 480px) {
+    .form-title {
+      font-size: 18px;
+    }
+  
+    .label-style,
+    .input-style,
+    .button-styles {
+      font-size: 14px;
+    }
+  
+    .input-style,
+    .button-styles {
+      padding: 8px;
+    }
+  }
+  
