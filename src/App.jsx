@@ -1,6 +1,8 @@
 //import Car from "./components/classComponents/Car"
 
-import SimpleForm from "./components/functionalComponents/React Forms/SimpleForm"
+import MultiInput from "./components/functionalComponents/React Forms/MutliInput"
+
+//import SimpleForm from "./components/functionalComponents/React Forms/SimpleForm"
 
 //import StyledList from "./components/functionalComponents/React List/StyledList"
 
@@ -50,10 +52,10 @@ function App() {
       <NameList/>
       <ProductList/>
       <StyledList/>
-   
+      <SimpleForm/>
     */
    
-      <SimpleForm/>
+      <MultiInput/>
     
 
   )
