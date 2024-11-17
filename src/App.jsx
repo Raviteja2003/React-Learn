@@ -1,6 +1,8 @@
 //import Car from "./components/classComponents/Car"
 
-import MultiInput from "./components/functionalComponents/React Forms/MutliInput"
+import FormValidations from "./components/functionalComponents/React Forms/FormValidations"
+
+//import MultiInput from "./components/functionalComponents/React Forms/MutliInput"
 
 //import SimpleForm from "./components/functionalComponents/React Forms/SimpleForm"
 
@@ -30,7 +32,6 @@ import MultiInput from "./components/functionalComponents/React Forms/MutliInput
 
 //import ProductList from './components/functionalComponents/React List/ProductList';
 
-
 //const cars = ["Ford","Toyato","Wolkswagen"];
 
 //const isGoal = true;
@@ -53,9 +54,10 @@ function App() {
       <ProductList/>
       <StyledList/>
       <SimpleForm/>
+      <MultiInput/>
     */
    
-      <MultiInput/>
+      <FormValidations/>
     
 
   )
