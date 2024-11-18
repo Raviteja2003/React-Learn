@@ -1,6 +1,10 @@
 //import Car from "./components/classComponents/Car"
 
-import FormValidations from "./components/functionalComponents/React Forms/FormValidations"
+import UnCountrolledForm from "./components/functionalComponents/React Forms/UnControlledForm"
+
+//import SelectTextAreaForm from "./components/functionalComponents/React Forms/TextAreaHandling"
+
+//import FormValidations from "./components/functionalComponents/React Forms/FormValidations"
 
 //import MultiInput from "./components/functionalComponents/React Forms/MutliInput"
 
@@ -55,10 +59,11 @@ function App() {
       <StyledList/>
       <SimpleForm/>
       <MultiInput/>
+      <FormValidations/>
+      <SelectTextAreaForm/>
     */
    
-      <FormValidations/>
-    
+   < UnCountrolledForm/>
 
   )
 }
