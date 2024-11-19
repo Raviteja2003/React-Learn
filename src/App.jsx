@@ -1,6 +1,9 @@
 //import Car from "./components/classComponents/Car"
 
-import UnCountrolledForm from "./components/functionalComponents/React Forms/UnControlledForm"
+import {BrowserRouter as Router, Route,Routes } from "react-router-dom"
+import Home from "./components/functionalComponents/ReactRouter/Home"
+
+//import UnCountrolledForm from "./components/functionalComponents/React Forms/UnControlledForm"
 
 //import SelectTextAreaForm from "./components/functionalComponents/React Forms/TextAreaHandling"
 
@@ -35,6 +38,9 @@ import UnCountrolledForm from "./components/functionalComponents/React Forms/UnC
 //import NameList from './components/functionalComponents/React List/NameList';
 
 //import ProductList from './components/functionalComponents/React List/ProductList';
+import About from './components/functionalComponents/ReactRouter/About';
+import Contact from './components/functionalComponents/ReactRouter/Contact';
+import Navbar from "./components/functionalComponents/ReactRouter/Navbar";
 
 //const cars = ["Ford","Toyato","Wolkswagen"];
 
@@ -61,9 +67,19 @@ function App() {
       <MultiInput/>
       <FormValidations/>
       <SelectTextAreaForm/>
+      < UnCountrolledForm/>
     */
+      <Router>
+      <Navbar />
+      <div className="container mx-auto p-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
    
-   < UnCountrolledForm/>
 
   )
 }
